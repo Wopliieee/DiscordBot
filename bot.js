@@ -1,14 +1,5 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-
-x = 0
-
-bot.off('message', (message) => {
-    if(x == 0)
-        message.channel.sendMessage('Obecny!');
-        x = 1
-}
-        
         
 
 bot.on('message', (message) => {
