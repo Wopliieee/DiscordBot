@@ -1,12 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-
-bot.on("ready", (message) => {
-        message.channel.sendMessage('Obecny!');
-});
-
-
 const fs = require("fs");
 bot.msgs = require ("./msgs.json");
 
@@ -16,10 +10,6 @@ bot.on('message', (message) => {
     
     if(msg.startsWith ("siema")) {
         message.reply ('Siemanko!');
-        
-        message.channel.send ("message: " + message);
-        message.channel.send ("message sender: " + message.author.username);
-        message.channel.send ("message sender ID: " + message.author.id);
     }
 
     
