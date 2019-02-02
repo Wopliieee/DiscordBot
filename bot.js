@@ -26,7 +26,6 @@ bot.on('message', (message) => {
         }
         fs.writeFile ("./msgs.json", JSON.stringify (bot.msgs, null, 4), err => {
                 if (err) throw err;
-                message.channel.send("k");
         });
         
         let _message = bot.msgs[message.author.username].message;
