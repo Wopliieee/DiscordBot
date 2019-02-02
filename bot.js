@@ -31,12 +31,12 @@ bot.on('message', (message) => {
         });
         
         let _message = bot.msgs[message.author.username].message;
-        message.channel.send("Nie wiem po co ale... " + _message)
+        message.channel.send("Nie wiem po co ale... " + _message);
             
     }
     
     if(msg.startsWith ("co umiesz")){
-        message.channel.send("Umiem dużo rzeczy ;) Np.: co umiesz, siema, jak wyglądasz, lutka, napisz[zdanie]")
+        message.channel.send("Umiem dużo rzeczy ;) Np.: co umiesz, siema, jak wyglądasz, lutka, napisz[zdanie]");
     }
     
 });
