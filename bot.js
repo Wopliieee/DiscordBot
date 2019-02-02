@@ -1,8 +1,9 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+message.channel.sendMessage('Obecny!');
+
 bot.on('message', (message) => {
-    message.channel.sendMessage('Obecny!');
     
     msg = message.content.toLowerCase();
     
