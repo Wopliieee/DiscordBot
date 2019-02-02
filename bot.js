@@ -7,7 +7,7 @@ bot.on('message', (message) => {
         message.channel.sendMessage('Elko na rejonie');
     }
     
-    if(message.content.startsWith == "Lutka") {
+    if(message.content == "Lutka") {
         message.channel.send("No i mamy Gracjanka :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
     }
     
