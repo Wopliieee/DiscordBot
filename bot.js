@@ -34,7 +34,7 @@ bot.on('message', (message) => {
         });
         
         let _message = bot.msgs[message.author.username].message;
-        message.channel.send("Nie wiem po co ale... " + _message);
+        message.channel.send("Nie wiem po co ale... " + _message.editedmessage);
             
     }
     
