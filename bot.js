@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-msg = msg.content.toLowerCase();
-
 bot.on('message', (message) => {
+    
+    msg = msg.content.toLowerCase();
     
     if(msg.startsWith == ("siema")) {
         message.channel.sendMessage('Elko na rejonie');
