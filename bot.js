@@ -1,7 +1,11 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-       
 
+
+const fs = require("fs");
+bot.msgs = require ("./msgs.json");
+
+const prefix = "tb!";
 bot.on('message', (message) => {
     
     msg = message.content.toLowerCase();
@@ -14,18 +18,18 @@ bot.on('message', (message) => {
         message.channel.send("No i mamy Gracjanka :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
     }
         
-    if(msg.startsWith ("napisz za mnie")) {
-        editedmessage = message.content.slice (6);
+    if(msg.startsWith ("napisz")) {
+        editedmessage = message.content.slice (7);
             
         bot.msgs [message.author.username] = {
                 message: message.content
         }
-        fs.writeFile ("./msgs.json", JSON.stringify (client.msgs, null, 4), err => {
+        fs.writeFile ("./msgs.json", JSON.stringify (bot.msgs, null, 4), err => {
                 if (err) throw err;
                 message.channel.send("k");
         });
         
-        let _message = client.msgs[message.author.username].message;
+        let _message = bot.msgs[message.author.username].message;
         message.channel.send("Nie wiem po co ale... " + _message)
             
     }
