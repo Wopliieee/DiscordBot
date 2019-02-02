@@ -10,12 +10,11 @@ bot.on("ready", (message) => {
 const fs = require("fs");
 bot.msgs = require ("./msgs.json");
 
-const prefix = "tb!";
 bot.on('message', (message) => {
     
     msg = message.content.toLowerCase();
     
-    if(msg.startsWith(prefix + "siema")) {
+    if(msg.startsWith ("siema")) {
         message.reply ('Siemanko!');
         
         message.channel.send ("message: " + message);
