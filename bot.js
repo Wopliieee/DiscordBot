@@ -17,7 +17,7 @@ bot.on('message', (message) => {
     }
     
     if(msg.startsWith ("lutka")) {
-        message.channel.send("No i mamy Gracjanka :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
+        message.channel.send("Po nazwisku to po pysku! Ale jak coś tak wygląda Gracjanek :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
     }
         
     if(msg.startsWith ("napisz")) {
