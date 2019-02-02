@@ -3,11 +3,15 @@ const bot = new Discord.Client();
 
 x = 0
 
-bot.on('message', (message) => {
-    
+bot.off('message', (message) => {
     if(x == 0)
         message.channel.sendMessage('Obecny!');
         x = 1
+}
+        
+        
+
+bot.on('message', (message) => {
     
     msg = message.content.toLowerCase();
     
