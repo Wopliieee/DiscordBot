@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 bot.on('message', (message) => {
     message.channel.sendMessage('Obecny!');
     
-    msg = msg.content.toLowerCase();
+    msg = message.content.toLowerCase();
     
     if(msg.startsWith ("siema")) {
         message.channel.sendMessage('Elko na rejonie');
