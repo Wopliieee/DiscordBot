@@ -16,7 +16,10 @@ bot.on('message', (message) => {
         message.channel.send ('A tak wyglądam :) https://github.com/Wopliieee/DiscordBot/blob/master/bot.js');
     }
     
-    if(msg.startsWith ("lutka" or "debil")) {
+    if(msg.startsWith ("lutka")) {
+        message.channel.send("Po nazwisku to po pysku! Ale jak coś tak wygląda Gracjanek :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
+    }
+    if(msg.startsWith ("debil")) {
         message.channel.send("Po nazwisku to po pysku! Ale jak coś tak wygląda Gracjanek :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
     }
         
