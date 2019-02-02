@@ -12,7 +12,7 @@ bot.on('message', (message) => {
         message.reply ('Siemanko!');
     }
     
-    if(msg.startsWith ("jak wyglądasz?")) {
+    if(msg.startsWith ("jak wyglądasz")) {
         message.channel.send ('A tak wyglądam :) https://github.com/Wopliieee/DiscordBot/blob/master/bot.js');
     }
     
@@ -33,6 +33,10 @@ bot.on('message', (message) => {
         let _message = bot.msgs[message.author.username].message;
         message.channel.send("Nie wiem po co ale... " + _message)
             
+    }
+    
+    if(msg.startsWith ("co umiesz")){
+        message.channel.send("Umiem dużo rzeczy ;) Np.: co umiesz, siema, jak wyglądasz, lutka, napisz[zdanie]")
     }
     
 });
