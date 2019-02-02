@@ -11,7 +11,10 @@ bot.on('message', (message) => {
     if(msg.startsWith ("siema")) {
         message.reply ('Siemanko!');
     }
-
+    
+    if(msg.startsWith ("jak wyglądasz?")) {
+        message.channel.send ('A tak wyglądam :) https://github.com/Wopliieee/DiscordBot/blob/master/bot.js');
+    }
     
     if(msg.startsWith ("lutka")) {
         message.channel.send("No i mamy Gracjanka :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
