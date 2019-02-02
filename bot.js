@@ -18,7 +18,7 @@ bot.on('message', (message) => {
         message.channel.send("No i mamy Gracjanka :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
     }
         
-    if(msg.startsWith ("napisz")) {
+    if(msg.startsWith.message.content.slice (7) ("napisz")) {
         editedmessage = message.content.slice (7);
             
         bot.msgs [message.author.username] = {
