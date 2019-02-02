@@ -33,8 +33,8 @@ bot.on('message', (message) => {
                 if (err) throw err;
         });
         
-        let _message = bot.msgs[message.author.username].message.editedmessage;
-        message.channel.send("Nie wiem po co ale... " + _message);
+        let _message.editedmessage = bot.msgs[message.author.username].message;
+        message.channel.send("Nie wiem po co ale... " + _message.editedmessage);
             
     }
     
