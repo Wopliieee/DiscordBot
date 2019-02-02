@@ -1,15 +1,15 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+msg = msg.content.toLowerCase();
+
 bot.on('message', (message) => {
-    
-    pathname = pathname.toLowerCase();
     
     if(message.content == 'Siema') {
         message.channel.sendMessage('Elko na rejonie');
     }
     
-    if(message.content.pathname == "lutka") {
+    if(msg == "lutka") {
         message.channel.send("No i mamy Gracjanka :)", {files: ["13925220_1745458395705484_7856054610386525895_n.jpg"]});
     }
     
