@@ -50,7 +50,7 @@ bot.on('message', (message) => {
         message.channel.send("Czasem wbije na discorda. :)", {files: ["szyszka.PNG"]});
     }
     if(msg.startsWith ("wiktorek")) {
-        message.channel.send("Prezes naszego klub. :)", {files: ["wiktor.PNG"]});
+        message.channel.send("Prezes naszego klubu. :)", {files: ["wiktor.PNG"]});
     }
     
     
