@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 const fs = require("fs");
 bot.msgs = require ("./msgs.json");
 
-bot.on('message', (mesage) => {
+bot.on('message', (message) => {
     
     msg = message.content.toLowerCase();
     
