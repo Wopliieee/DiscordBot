@@ -35,10 +35,10 @@ bot.on('message', (message) => {
         message.channel.send("Kozak i chociaż nikogo nie zna to kogoś tam sobie pozna. :)", {files: ["kamilek.PNG"]});
     }
     if(msg.startsWith ("konradzik")) {
-        message.channel.send("Konradzik lubi wszystkich i bardzo przyjemny chłopak. :)", {files: ["konrad.PNG"]});
+        message.channel.send("Lubi wszystkich i bardzo przyjemny chłopak. :)", {files: ["konrad.PNG"]});
     }
     if(msg.startsWith ("kubuś")) {
-        message.channel.send("Kubuś może i powyzywa enemy i mówi że są rudymi kurwami, ale jest miły. :)", {files: ["kuba.PNG"]});
+        message.channel.send("Może i powyzywa enemy i mówi że są rudymi kurwami, ale jest miły. :)", {files: ["kuba.PNG"]});
     }
     if(msg.startsWith ("mateuszek")) {
         message.channel.send("Kto to?", {files: ["mateusz.png"]});
