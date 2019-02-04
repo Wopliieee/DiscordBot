@@ -8,7 +8,7 @@ bot.on('message', (message) => {
     
     msg = message.content.toLowerCase();
     
-    if(msg.startsWith ("siema")) {
+    if(msg.startsWith ("siemA")) {
         message.reply ('Siemanko!');
     }
     
