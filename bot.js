@@ -29,28 +29,28 @@ bot.on('message', (message) => {
         message.channel.send("Fabian zawsze chętnie z tobą porozmawia :)", {files: ["fabian.jpg"]});
     }
     if(msg.startsWith ("julcia")) {
-        message.channel.send("Jedyna kobita na naszym Discordzie! Miła i ładna. :)", {files: ["julcia.PNG"]});
+        message.channel.send("Jedyna kobita na naszym Discordzie! Miła i ładna :)", {files: ["julcia.PNG"]});
     }
     if(msg.startsWith ("kamilek")) {
-        message.channel.send("Kozak i chociaż nikogo nie zna to kogoś tam sobie pozna. :)", {files: ["kamilek.PNG"]});
+        message.channel.send("Kozak i chociaż nikogo nie zna to kogoś tam sobie pozna :)", {files: ["kamilek.PNG"]});
     }
     if(msg.startsWith ("konradzik")) {
-        message.channel.send("Lubi wszystkich i bardzo przyjemny chłopak. :)", {files: ["konrad.PNG"]});
+        message.channel.send("Lubi wszystkich i bardzo przyjemny chłopak :)", {files: ["konrad.PNG"]});
     }
     if(msg.startsWith ("kubuś")) {
-        message.channel.send("Może i powyzywa enemy i mówi że są rudymi kurwami, ale jest miły. :)", {files: ["kuba.PNG"]});
+        message.channel.send("Może i powyzywa enemy i mówi że są rudymi kurwami, ale jest miły :)", {files: ["kuba.PNG"]});
     }
     if(msg.startsWith ("mateuszek")) {
-        message.channel.send("Kto to?", {files: ["mateusz.png"]});
+        message.channel.send("Czarny skurwysyn :)", {files: ["murzyn.jpg"]});
     }
     if(msg.startsWith ("oskarek")) {
-        message.channel.send("Stary i już na emeryturze ale jest spoko ziomkiem. :)", {files: ["oskar.PNG"]});
+        message.channel.send("Stary i już na emeryturze ale jest spoko ziomkiem :)", {files: ["oskar.PNG"]});
     }
     if(msg.startsWith ("szyszka")) {
-        message.channel.send("Czasem wbije na discorda. :)", {files: ["szyszka.PNG"]});
+        message.channel.send("Czasem wbije na discorda :)", {files: ["szyszka.PNG"]});
     }
     if(msg.startsWith ("wiktorek")) {
-        message.channel.send("Prezes naszego klubu. :)", {files: ["wiktor.PNG"]});
+        message.channel.send("Prezes naszego klubu :)", {files: ["wiktor.PNG"]});
     }
     
     
